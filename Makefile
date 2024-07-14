@@ -18,6 +18,7 @@ CRYPTION_SRC = src/app/encryptDecrypt/CryptionMain.cpp \
 MAIN_OBJ = $(MAIN_SRC:.cpp=.o)
 CRYPTION_OBJ = $(CRYPTION_SRC:.cpp=.o)
 
+
 all: $(MAIN_TARGET) $(CRYPTION_TARGET)
 
 $(MAIN_TARGET): $(MAIN_OBJ)

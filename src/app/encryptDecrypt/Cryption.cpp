@@ -7,7 +7,6 @@ int executeCryption(const string& taskData) {
     Task task = Task::fromString(taskData);
     ReadEnv env;
 
-
     string envKey = env.getEnv();
     int key = stoi(envKey);
 
